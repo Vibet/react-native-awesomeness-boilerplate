@@ -1,0 +1,80 @@
+{
+    "lifeAreas": [
+        {
+            "id": 1,
+            "description": "Saúde"
+        },
+        {
+            "id": 2,
+            "description": "Social"
+        },
+        {
+            "id": 3,
+            "description": "Profissional"
+        },
+        {
+            "id": 4,
+            "description": "Financeiro"
+        },
+        {
+            "id": 5,
+            "description": "Espiritual"
+        },
+        {
+            "id": 6,
+            "description": "Intelectual"
+        }
+    ],
+    "goals": [
+        {
+            "id": 1,
+            "description": "Correr",
+            "lifeAreaID": 1
+        },
+        {
+            "id": 2,
+            "description": "Fazer novos amigos",
+            "lifeAreaID": 1
+        },
+        {
+            "id": 3,
+            "description": "Ser promovido",
+            "lifeAreaID": 1
+        },
+        {
+            "id": 4,
+            "description": "Ganhar mais",
+            "lifeAreaID": 1
+        },
+        {
+            "id": 5,
+            "description": "Virar budista",
+            "lifeAreaID": 1
+        },
+        {
+            "id": 6,
+            "description": "Ler/Estudar mais",
+            "lifeAreaID": 1
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Vitor",
+            "lastName": "Bettani"
+        },
+        {
+            "id": 2,
+            "name": "Nádia",
+            "lastName": "Paiolla"
+        }
+    ],
+    "userGoals": [
+        {
+            "userID": 1,
+            "goalID": 1,
+            "initialStatus": 3,
+            "desiredStatus": 10
+        }
+    ]
+}
