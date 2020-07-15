@@ -5,7 +5,7 @@ const colors = {
     ultraLightGrey: '#f5f5f5',
     lightGrey: darken(0.2, '#f5f5f5'),
     grey: darken(0.4, '#f5f5f5'),
-    darkGrey: lighten(0.2, '#262833'),
+    darkGrey: lighten(0.05, '#262833'),
 
     lightRed: lighten(0.2, '#FF3333'),
     red: '#FF3333',

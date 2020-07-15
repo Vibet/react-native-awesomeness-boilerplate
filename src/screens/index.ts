@@ -1,11 +1,11 @@
 import { connect } from 'react-redux';
 import { increment, decrement } from '../actions/counterActions';
 
-import HomeScreen from './HomeScreen/HomeScreen';
-import DetailsScreen from './DetailsScreen/DetailsScreen';
+import HomeScreen from './Home/HomeScreen';
+import DetailsScreen from './Details/DetailsScreen';
+import LoginScreen from './Auth/LoginScreen';
 
 const mapStateToProps = (state) => {
-    console.log(state);
     return {
         counter: state.counter,
         theme: state.theme,
@@ -22,4 +22,7 @@ const mapDispatchToProps = (dispatch) => {
 export const screens = {
     Home: connect(mapStateToProps, mapDispatchToProps)(HomeScreen),
     Details: connect(mapStateToProps, mapDispatchToProps)(DetailsScreen),
+    Auth: {
+        Login: LoginScreen,
+    },
 };
