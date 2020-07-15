@@ -17,7 +17,7 @@ class DetailsScreen extends Component {
                     </Button>
 
                     <Card>
-                        <Counter>Light</Counter>
+                        <Counter>{this.props.theme}</Counter>
                     </Card>
 
                     <Button onPress={() => {}}>

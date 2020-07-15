@@ -1,15 +1,10 @@
-const initialState = {
-    name: '',
-};
+const initialState = null;
 
-export const userReducer = (state = initialState, action: any) => {
-    switch (action.type) {
-        case 'CLICK_UPDATE_VALUE':
-            return {
-                ...state,
-                name: action.name,
-            };
-        default:
-            return state;
-    }
+interface Action {
+    type: string;
+    payload: any;
+}
+
+export const userReducer = (state = initialState, action: Action) => {
+    return state;
 };

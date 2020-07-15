@@ -8,8 +8,8 @@ import { Store } from './config/store';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 // Screens
-import HomeScreen from './screens/HomeScreen/HomeScreen';
-import DetailsScreen from './screens/DetailsScreen/DetailsScreen';
+import { screens } from './screens';
+const { Home, Details } = screens;
 
 declare const global: { HermesInternal: null | {} };
 
@@ -24,7 +24,7 @@ const TabNavigation = () => {
             }}>
             <Tab.Screen
                 name="Home"
-                component={HomeScreen}
+                component={Home}
                 options={{
                     title: 'Contador',
                     tabBarIcon: ({ color, size, focused }) => (
@@ -39,7 +39,7 @@ const TabNavigation = () => {
 
             <Tab.Screen
                 name="Details"
-                component={DetailsScreen}
+                component={Details}
                 options={{
                     title: 'Trocar Tema',
                     tabBarIcon: ({ color, size, focused }) => (

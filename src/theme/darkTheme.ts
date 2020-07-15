@@ -1,5 +1,19 @@
-import { StyleSheet } from 'react-native';
+import colors from './colors';
 
-const darkTheme = StyleSheet.create({});
+const darkTheme = {
+    ...colors,
+
+    background: colors.black,
+
+    primary: colors.lightYellow,
+    danger: colors.red,
+    warning: colors.yellow,
+    success: colors.green,
+
+    textPrimary: colors.white(0.9),
+    textContrast: colors.darkGrey,
+
+    card: colors.white(0.1),
+};
 
 export default darkTheme;
