@@ -139,7 +139,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.gohabit"
+        applicationId "com.awesomenessboilerplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

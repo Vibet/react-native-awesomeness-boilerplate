@@ -15,6 +15,11 @@ const lightTheme = {
     textContrast: colors.darkGrey,
 
     card: colors.white(1),
+    shadow: {
+        elevation: 5,
+        shadowColor: colors.darkGrey,
+        shadowOpacity: 0.3,
+    },
 
     // React Navigation Theme
     dark: false,

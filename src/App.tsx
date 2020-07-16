@@ -13,9 +13,7 @@ declare const global: { HermesInternal: null | {} };
 const App: React.FC = () => {
     const colorScheme = useColorScheme();
     let theme =
-        colorScheme === 'light'
-            ? themeStyles.lightTheme
-            : themeStyles.darkTheme;
+        colorScheme === 'dark' ? themeStyles.lightTheme : themeStyles.darkTheme;
 
     theme = Object.assign(DefaultTheme, theme);
 
